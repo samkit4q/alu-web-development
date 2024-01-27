@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article{
+    flex: 2;
+    overflow-y: auto;
+    background-color: greenyellow;
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto;
+    background-color: black;
+}
+
+.camera{
+    width: 600px;
+    height: auto;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
